@@ -6,14 +6,16 @@
     border: 0;
 }
 
-#cabeçalho {
+header {
     background-color: red;
 }
 
-#h1-header(
-    color:blanka
-)
+header h1, h2 {
+    color:black;
+    font-size: arial;
 
+
+}
 
 body {
     background-color: rgb(1, 73, 1);
