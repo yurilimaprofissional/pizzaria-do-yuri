@@ -34,3 +34,19 @@ body {
     border-radius: 12px;
     text-align: center;
 }
+
+.grid {
+    background-color: none;
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 10px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 5px;
+
+}
+
+.sub-grid {
+
+}
